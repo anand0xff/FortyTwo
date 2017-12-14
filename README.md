@@ -5,4 +5,4 @@ Python 3.4+ example of how to make a package inpython and how to import it.  The
 
 ## Driver: ##
 
-* **run42.py** - exercises the packages **physics** and **stampcollecting**.  *physics* calls a function in a file within **stampcollecting**.
+* **run42.py** - exercises the packages **physics** and **stampcollecting**.  **physics** calls a function in a file within **stampcollecting**.
