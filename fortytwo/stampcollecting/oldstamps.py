@@ -1,6 +1,5 @@
 #! /usr/bin/env  python 
 
-#mport fortytwo.stampcollecting.utils  as U
 from . import utils 
 print("::: importing oldstamps module")
 
@@ -12,8 +11,7 @@ class PennyBlack():
 
     def currentvalue(self, newp):
         print("\t::: PennyBlack self.cost {}d".format(self.cost))
-        price = utils.newpence_to_LSD(newp)
-        print("\t::: PennyBlack price today {}".format(price))
+        print("\t::: PennyBlack price today {}".format(utils.newpence_to_LSD(newp)))
 
 if __name__ == "__main__":
 
