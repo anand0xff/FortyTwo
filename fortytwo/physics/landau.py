@@ -1,8 +1,6 @@
-#! /usr/bin/env  python 
-
 print("::: importing landau module")
 
-from .. import stampcollecting # DaBeaz recommends rel in-pkg imports
+from ..stampcollecting import utils # DaBeaz recommends rel in-pkg imports
 
 
 def damping(s):
@@ -18,7 +16,7 @@ class Lifshitz():
     def writebook(self, s):
         print("\t::: landau.Lifshitz.writebook " + s)
 
-        price = stampcollecting.utils.newpence_to_LSD(5008)
+        price = utils.newpence_to_LSD(5008)
         print("\t::: Price: " + price)
 
 damping("from landau.py module execution")

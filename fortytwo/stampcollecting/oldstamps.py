@@ -1,6 +1,4 @@
-#! /usr/bin/env  python 
-
-from . import utils 
+from . import utils
 print("::: importing oldstamps module")
 
 class PennyBlack():

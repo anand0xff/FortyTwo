@@ -1,5 +1,3 @@
-#! /usr/bin/env python
-
 # currency converter
 def LSD_to_newpence(l, s, d):
     return ((l*20 + s)*12 + d)
